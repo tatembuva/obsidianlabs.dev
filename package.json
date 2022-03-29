@@ -1,14 +1,26 @@
 {
-  "name": "@example/minimal",
-  "version": "0.0.1",
-  "private": true,
+  "name": "obsidianlabs.dev",
+  "version": "1.0.0",
+  "description": "Static site, 11ty + tailwind + alpine",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "astro": "^0.25.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatembuva/obsidianlabs.dev.git"
+  },
+  "keywords": [
+    "11ty",
+    "nodejs",
+    "ssg",
+    "nunjucks",
+    "markdown"
+  ],
+  "author": "@tatembuva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatembuva/obsidianlabs.dev/issues"
+  },
+  "homepage": "https://github.com/tatembuva/obsidianlabs.dev#readme"
 }
